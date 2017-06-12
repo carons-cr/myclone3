@@ -4,5 +4,5 @@ module.exports = function main(x) {
                 var y=parseInt(x[i]);
                 sum=sum+y;
           }
-           document.write(sum);
+           return sum;
 };
